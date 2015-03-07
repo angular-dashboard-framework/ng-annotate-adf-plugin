@@ -1,0 +1,20 @@
+{
+  "name": "ng-annotate-adf-plugin",
+  "version": "0.1.0",
+  "description": "ng-annotate plugin for angular-dashboard-framework widgets",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "sdorra/ng-annotate-adf-plugin",
+  "author": {
+    "name": "Sebastian Sdorra",
+    "email": "github@scm-manager.org",
+    "url": "https://github.com/sdorra"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "ng-annotate",
+    "adf"
+  ]
+}
