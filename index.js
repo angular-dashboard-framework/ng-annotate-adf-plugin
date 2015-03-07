@@ -67,7 +67,7 @@ module.exports = {
 
     var obj = callee.object;
     if (!obj){
-      retrun false;
+      return false;
     }
 
     // identifier or expression
