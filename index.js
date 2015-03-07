@@ -65,7 +65,12 @@ module.exports = {
       return false;
     }
 
-    var obj = callee.object; // identifier or expression
+    var obj = callee.object;
+    if (!obj){
+      retrun false;
+    }
+
+    // identifier or expression
     if (!(obj.$chained === 1 || (obj.type === "Identifier" && obj.name === "dashboardProvider"))) {
       return false;
     }
